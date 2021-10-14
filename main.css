@@ -1,0 +1,77 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #c4deeb;
+}
+
+.left {
+    float: left;
+    font-family: "Trebuchet MS";
+    font-size: 18px;
+    background-color: #5cadd3;
+    padding-left: 55px;
+}
+.right {
+    float: right;
+    text-align: center;
+    list-style-type: none;
+    font-family: "Trebuchet MS";
+    background-color: #5cadd3;
+}
+ol {
+    padding-right: 20px;
+}
+li {
+    display: inline;
+    padding: 15px;
+    font-size: 18px;
+}
+#header {
+    background-color: #5cadd3;
+    height: 55px;
+}
+#totalBoxes {
+    clear: both;
+    text-align: center;
+    border: 5px;
+    margin-top: 40px;
+}
+#infoBoxes {
+    max-width: 1500px;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    font-family: "Trebuchet MS";
+    
+}
+.box {
+    background-color: #ffffff;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    height: 500px;
+    width: 300px;
+    float: left;
+    border: 3px solid #5cadd3;
+    border-radius: 5px;
+    text-align: left;
+}
+.tab {
+    margin-top: 50px;
+    background-color: #5cadd3;
+    border-radius: 2px;
+    padding: 5px 0;
+    margin: 0;
+    text-align: center;
+}
+.box p {
+    margin-left: 15px;
+}
+.box h3 {
+    margin-top: 5px;
+    font-size: 25px;
+}
